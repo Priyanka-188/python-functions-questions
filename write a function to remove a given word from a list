@@ -1,0 +1,11 @@
+# function to remove given word in python
+
+def remove(lst, word):
+    lst.remove(word)
+    return lst
+
+lst = ["Priyanka", "Nick", "Shruti", "Tina", "Safin"]
+print("\nYour option list is :",lst)
+word = input("Enter the word that you want to remove from the list : ")
+
+print("The resulted lst is : ", remove(lst,word))
